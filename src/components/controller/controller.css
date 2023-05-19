@@ -1,0 +1,25 @@
+.controller-container {
+  display: flex;
+  flex-direction: column;
+  width: min(200px, 90vw);
+  align-self: center;
+  margin-top: 32px;
+}
+
+.controller-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.controller-button {
+  margin: 0 16px 16px;
+  width: 80px;
+  box-sizing: border-box;
+  transition: background-color 0.4s;
+}
+
+.controller-pass {
+  margin-top: 32px;
+  width: 100%;
+}

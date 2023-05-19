@@ -1,0 +1,14 @@
+.slider-container {
+  display: flex;
+  border: 2px solid #1d1d1d;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.slider-slide {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
